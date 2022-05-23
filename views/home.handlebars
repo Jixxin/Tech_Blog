@@ -1,0 +1,11 @@
+<h1 class="bg-light">Home page</h1>
+{{#each blogs}}
+<div class="card bg-light mb-3">
+    <h3 value={{id}}>{{title}}</h3>
+    <h4>Written by:{{User.username}}</h4>
+    <h4>{{createdAt}}</h4>
+    <p>{{body}}</p>
+    </div>
+{{/each}}
+
+<script src="/js/home.js"></script>

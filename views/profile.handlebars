@@ -1,0 +1,17 @@
+<h1 class="bg-light">Welcome back {{username}}</h1>
+<h2 class="bg-light">All your blogs:</h2>
+<form action="" id="newBlog" class="form-group bg-light mb-3">
+    <input class="form-control" type="text" id="title" placeholder="title">
+    <textarea class="form-control" id="body" cols="30" rows="10"></textarea>
+    <button>Submit</button>
+</form>
+{{#each Blogs}}
+<div class="card bg-light mb-3">
+    <h3>{{title}}</h3>
+    <p>{{body}}</p>
+    <button class="cust-btn btn btn-danger m-1 deleteBtn" value={{id}}>delete</button>
+    <hr>
+    </div>
+{{/each}}
+
+<script src="/js/profile.js"></script>
