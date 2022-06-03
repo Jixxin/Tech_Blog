@@ -6,7 +6,7 @@ This is a a simple blog website. On the home page you will see a list of all the
 ![Screenshot of site](./assets/Capture.PNG)
 
 ## Deployed Link
-https://secret-atoll-57844.herokuapp.com/
+https://jeff-tech-blog.herokuapp.com/
 
 
 ## Table of Contents
